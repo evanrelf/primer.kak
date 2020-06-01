@@ -150,7 +150,7 @@ set-face global bullet             $(c default            default)
 set-face global list               $(c default            default)
 
 # Markup
-set-face global value              $(c $text_blue        default)
+set-face global value              $(c $text_blue         default)
 set-face global type               $(c $text_blue         default)
 set-face global variable           $(c $text_blue         default)
 set-face global module             $(c $text_purple       default)
