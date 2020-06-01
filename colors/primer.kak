@@ -178,7 +178,7 @@ set-face global LineNumbers        $(c $text_gray_light   $bg_gray)
 set-face global LineNumbersWrapped $(c $text_gray_light   $bg_gray)
 set-face global BufferPadding      $(c default            default)
 
-set-face global MatchingChar       $(c $bg_green_light    default)
+set-face global MatchingChar       $(c default            $bg_green_light)
 
 set-face global MenuBackground     $(c $black             $bg_gray)
 set-face global MenuForeground     $(c $white             $bg_blue)
