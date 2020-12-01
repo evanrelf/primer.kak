@@ -5,6 +5,12 @@
 Color scheme for [Kakoune](https://github.com/mawww/kakoune) based on GitHub's
 [Primer design system](https://primer.style/).
 
+## Screenshot
+
+Example of some arbitrary Haskell code:
+
+<img src="screenshot.png" width="500px">
+
 ## Installation
 
 ### Using [plug.kak](https://github.com/robertmeta/plug.kak) (recommended)
