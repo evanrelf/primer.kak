@@ -165,13 +165,13 @@ set-face global meta               $(c $text_orange       default)
 set-face global builtin            $(c $text_red          default)
 
 # Deprecated?
-set-face global error              $(c $black             $bg_red_light)
+set-face global error              $(c default            $bg_red_light)
 set-face global identifier         $(c default            default)
 
 # Interface
 set-face global Default            $(c $black             $white)
 
-set-face global Error              $(c $black             $bg_red_light)
+set-face global Error              $(c default            $bg_red_light)
 
 set-face global LineNumberCursor   $(c $text_gray         $bg_gray)
 set-face global LineNumbers        $(c $text_gray_light   $bg_gray)
@@ -180,12 +180,12 @@ set-face global BufferPadding      $(c default            default)
 
 set-face global MatchingChar       $(c default            $bg_green_light)
 
-set-face global MenuBackground     $(c $black             $bg_gray)
+set-face global MenuBackground     $(c default            $bg_gray)
 set-face global MenuForeground     $(c $white             $bg_blue)
 set-face global MenuInfo           $(c default            default)
-set-face global Information        $(c $black             $bg_blue_light)
+set-face global Information        $(c default            $bg_blue_light)
 
-set-face global PrimaryCursor      $(c $black             $bg_yellow)
+set-face global PrimaryCursor      $(c default            $bg_yellow)
 set-face global PrimaryCursorEol   $(c default            $bg_orange)
 set-face global PrimarySelection   $(c default            $bg_yellow_light)
 set-face global SecondaryCursor    $(c $bg_red_light      $bg_pink)
@@ -193,7 +193,7 @@ set-face global SecondaryCursorEol $(c $bg_red_light      $bg_red)
 set-face global SecondarySelection $(c default            $bg_red_light)
 set-face global StatusCursor       $(c default            $bg_gray_dark)
 
-set-face global StatusLine         $(c $black             $bg_gray)
+set-face global StatusLine         $(c default            $bg_gray)
 set-face global StatusLineInfo     $(c default            $bg_yellow_light)
 set-face global StatusLineMode     $(c $text_blue         $bg_gray)
 set-face global StatusLineValue    $(c $text_pink         $bg_gray)
