@@ -26,8 +26,7 @@ plug "evanrelf/primer.kak" theme config %{ colorscheme primer }
 Download color scheme:
 
 ```bash
-$ mkdir -p ~/.config/kak/colors/
-$ curl -L https://raw.githubusercontent.com/evanrelf/primer.kak/master/colors/primer.kak -o ~/.config/kak/colors/primer.kak
+$ curl -L https://raw.githubusercontent.com/evanrelf/primer.kak/master/colors/primer.kak -o ~/.config/kak/colors/primer.kak --create-dirs
 ```
 
 Add to your `kakrc` file:
